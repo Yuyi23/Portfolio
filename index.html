@@ -4,6 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/2b79432325.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,21 +20,79 @@
 	
 
 	<section id = "hero">
-      <div class = "hero_content">
-        <h1 class = "hero_text">
-          Hi, my name is <span class="text-color-main">Yueyi Gao</span>
-          <br />
-          I'm a Beginner Developer.
-        </h1>
-        <button type="button" class="btn btn-outline-dark"><a href="#about">Know more</a></button>
-        </button>
+      <div class = "container">
+			<div class="hero_content">
+				<h1 class = "hero_text">
+					Hi, my name is <span class="text-color-main">Yueyi Gao</span>
+					<br />
+					I'm a Beginner Developer.
+				</h1>
+
+				<div class = "hero_button_1"><a href="#about"><button type="button" class="btn btn-outline-dark">Know more</button></a></div>
+				<div class = "hero_button_2">
+					<a href = "https://github.com/Yuyi23"><i class="fa-brands fa-github fa-lg"></i></a>
+					<a href = "https://www.linkedin.com/in/yueyi-gao-433628178/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+					<a href ="https://www.instagram.com/aireen_yuyi/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+					<a href ="mailto: gyy981223@gmail.com"><i class="fa-solid fa-envelope fa-lg"></i></a>
+				</div>
+			</div>
+			<div class="hero_img">
+				<img src="assets/img/me.png" width=300px>
+			</div>      
       </div>
     </section>
 
     <section id = "about">
+    	<div class = "about_content">
+    		<h1>About Me</h1>
+    		<p>Hi, my name is Yueyi Gao. I enjoy learning new technologies and developing things that are useful to people. Currently, I am focusing on full stack development and trying to implement some personal projects.</p>
+    		<p>I am pursuing a Master's degree in Computer Science at UIUC and will graduate at the end of 2022. Also, I received my bachelor's degree in Computer Science from Auburn University. War Eagle! I am interested in many aspects and have been trying various courses like data mining, artificial intelligence, computer vision, deep learning, bioinformatics, game development and so on. </p>
+    		<p>In life beyond coding, I like to read, skate, swim, travel, play video games, watch anime, and edit videos.</p>
+    	</div>
     </section>
 
     <section id = "project">
+		<div class = "project_container">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+				<div class="col"><div class="card" style="width: 18rem;">
+					<img src="assets/img/Portfolio.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title">My Portfolio</h5>
+					<p class="card-text">A personal website about me.</p>
+					<p class="prj_tech">HTML, CSS, JavaScript</p>
+					<a href="https://yuyi23.github.io/Portfolio/" class="btn btn-outline-dark">Demo</a>
+					</div>
+				</div></div>
+				<div class="col"><div class="card" style="width: 18rem;">
+					<img src="assets/img/BookReview.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title">BookReview</h5>
+					<p class="card-text">A full-stack web application project that allows users to sign up and login to create, read, update, rate, and delete book information.</p>
+					<p class="prj_tech">Node.js, MongoDB, HTML, CSS, JavaScript</p>
+					<a href="https://bookreview-yueyi.herokuapp.com/" class="btn btn-outline-dark">Demo</a>
+					</div>
+				</div></div>
+				<div class="col"><div class="card" style="width: 18rem;">
+					<img src="assets/img/Todo.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title">To-Do List</h5>
+					<p class="card-text">A simple to-do list application.</p>
+					<p class="prj_tech">HTML, CSS, JavaScript</p>
+					<a href="https://htmlpreview.github.io/?https://github.com/Yuyi23/Web-Applications/blob/master/TodoListProject/todoList.html" class="btn btn-outline-dark">Demo</a>
+					</div>
+				</div></div>
+				<div class="col"><div class="card" style="width: 18rem;">
+					<img src="assets/img/ColorGame.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title">Guess Color Game</h5>
+					<p class="card-text">A game of guessing colors based on RGB values.</p>
+					<p class="prj_tech">HTML, CSS, JavaScript</p>
+					<a href="https://htmlpreview.github.io/?https://github.com/Yuyi23/Web-Applications/blob/master/RGBColorGame/colorGame.html" class="btn btn-outline-dark">Demo</a>
+					</div>
+				</div></div>
+				
+			</div>
+		</div>
     </section>
 
 	

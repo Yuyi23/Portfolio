@@ -32,6 +32,10 @@ nav a {
 	text-align: center;
 	z-index: 10;
 }
+nav a:hover{
+	color: #000000;
+	font-size: 15px;
+}
 
 nav a:nth-child(1){
 	width: 110px;
@@ -82,14 +86,23 @@ nav a:nth-child(4):hover~.animation{
 #hero{
 	height: 100vh;
 	background-color: #ffffff;
+	place-items: center;
+}
+
+.container{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+	align-items: center;
 }
 
 .hero_content{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform:  translate(-50%,-50%);
+	margin-top: 10%;
+	float: left;
+  	width: 66.66%;
 }
+
 .hero_text{
 	font-size: 2rem;
 	text-align: center;
@@ -98,26 +111,58 @@ nav a:nth-child(4):hover~.animation{
 	color: #495057;
 	font-size: 3rem;
 }
-
-.btn-outline-dark{
+.hero_button_1{
+	text-align: center;
 	margin-top: 25px;
 }
+.hero_button_2{
+	text-align: center;
+	margin-top: 15px;
+}
+.fa-lg{
+	color:#000000;
+}
+.hero_img{
+	margin-top: 6%;
+	float: right;
+  	width: 33.33%;
+}
+
 
 .btn a{
 	text-decoration: none;
 	color: #000000;
+}
+.btn a:hover{
+	color: #ffffff;
 }
 
 #about{
 	height: 100vh;
 	background-color: #ffffff;
 }
+.about_content{
+	position: relative;
+	top: 25%;
+	left: 30%;
+	width: 600px;
+}
 
 #project{
 	height: 100vh;
-	background-color: #adb5bd;
+	background-color: #ffffff;
 }
 
+.project_container{
+	position: relative;
+	top: 15%;
+	left: 10%;
+}
 
+.prj_tech{
+	font-size: 10px;
+}
 
-
+.col{
+	margin-bottom: 20px;
+}
