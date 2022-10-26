@@ -1,0 +1,123 @@
+:root{
+/*https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
+  https://coolors.co/palette/353535-3c6e71-ffffff-d9d9d9-284b63	*/
+}
+
+body{
+	background-color: #ffffff;
+}
+
+
+nav{
+	position: sticky;
+	top: 0;
+	width: 500px;
+	height: 50px;
+	background-color: #ffffff;
+	border-radius: 15px;
+	margin: auto;
+}
+
+nav a {
+	position: relative;
+	display: block;
+	float: left;
+	font-size: 15px;
+	line-height: 50px;
+	width: 100px;
+	height: 50px;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	z-index: 10;
+}
+
+nav a:nth-child(1){
+	width: 110px;
+}
+nav a:nth-child(2){
+	width: 130px;
+}
+
+nav a:nth-child(3){
+	width: 130px;
+}
+
+nav a:nth-child(4){
+	width: 130px;
+}
+
+
+nav .animation{
+	position: absolute;
+	height: 100%;
+	background-color: #e9ecef;
+	z-index: 9;
+	border-radius: 15px;
+	transition: all 0.3s;
+}
+
+
+nav a:nth-child(1):hover~.animation{
+	width: 110px;
+	left: 0px;
+}
+
+nav a:nth-child(2):hover~.animation{
+	width: 130px;
+	left: 110px;
+}
+
+nav a:nth-child(3):hover~.animation{
+	width: 130px;
+	left: 240px;
+}
+
+nav a:nth-child(4):hover~.animation{
+	width: 130px;
+	left: 370px;
+}
+
+#hero{
+	height: 100vh;
+	background-color: #ffffff;
+}
+
+.hero_content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+}
+.hero_text{
+	font-size: 2rem;
+	text-align: center;
+}
+.text-color-main{
+	color: #495057;
+	font-size: 3rem;
+}
+
+.btn-outline-dark{
+	margin-top: 25px;
+}
+
+.btn a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#about{
+	height: 100vh;
+	background-color: #ffffff;
+}
+
+#project{
+	height: 100vh;
+	background-color: #adb5bd;
+}
+
+
+
+
